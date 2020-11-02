@@ -222,7 +222,7 @@
                     </tr>
                     <tr>
                       <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
-                        /argon/tables.html
+                        /seven/tables.html
                       </th>
                       <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                         2,050
@@ -237,7 +237,7 @@
                     </tr>
                     <tr>
                       <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left">
-                        /argon/profile.html
+                        /seven/profile.html
                       </th>
                       <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
                         1,795
@@ -412,10 +412,10 @@
                 <div class="text-sm text-gray-600 font-semibold py-1">
                   Copyright © {{date}}
                   <a
-                    href="https://www.creative-tim.com"
+                    href="https://sevengps.net/"
                     class="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1"
                   >
-                    Creative Tim
+                    Seven GPS
                   </a>
                 </div>
               </div>
@@ -423,7 +423,7 @@
                 <ul class="flex flex-wrap list-none md:justify-end  justify-center">
                   <li>
                     <a
-                      href="https://www.creative-tim.com"
+                      href="https://sevengps.net/"
                       class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                     >
                       Creative Tim
@@ -431,7 +431,7 @@
                   </li>
                   <li>
                     <a
-                      href="https://www.creative-tim.com/presentation"
+                      href="https://sevengps.net/"
                       class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                     >
                       About Us
@@ -439,7 +439,7 @@
                   </li>
                   <li>
                     <a
-                      href="http://blog.creative-tim.com"
+                      href="https://sevengps.net/"
                       class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                     >
                       Blog
