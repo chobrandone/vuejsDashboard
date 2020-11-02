@@ -43,7 +43,7 @@ export default {
           datasets: [
             {
               label: new Date().getFullYear(),
-              backgroundColor: "#ed64a6",
+              backgroundColor: "#1a9e8e",
               borderColor: "#ed64a6",
               data: [30, 78, 56, 34, 100, 45, 13],
               fill: false,
@@ -92,8 +92,8 @@ export default {
                 gridLines: {
                   borderDash: [2],
                   borderDashOffset: [2],
-                  color: "rgba(33, 37, 41, 0.3)",
-                  zeroLineColor: "rgba(33, 37, 41, 0.3)",
+                  color: "#1a9e8e",
+                  zeroLineColor: "#1a9e8e",
                   zeroLineBorderDash: [2],
                   zeroLineBorderDashOffset: [2]
                 }

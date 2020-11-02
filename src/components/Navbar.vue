@@ -9,7 +9,7 @@
       <!-- Brand -->
       <a
         class="text-white text-sm uppercase hidden lg:inline-block font-semibold"
-        href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/dashboard"
+        href="https://github.com/chobrandone/vuejsDashboard"
         >Dashboard</a
       >
       <!-- Form -->
@@ -47,3 +47,9 @@ export default {
   }
 };
 </script>
+<style>
+  
+nav{
+}
+
+</style>

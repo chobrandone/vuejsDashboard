@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
-    <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-gray-900">
-      <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
+  <div class="w-full xl:w-8/12 mb-12 xl:mb-0 px-4  ">
+    <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded linechart">
+      <div class="rounded-t mb-0 px-4 py-3 bg-transparent ">
         <div class="flex flex-wrap items-center">
           <div class="relative w-full max-w-full flex-grow flex-1">
             <h6 class="uppercase text-gray-200 mb-1 text-xs font-semibold">
@@ -15,7 +15,7 @@
       </div>
       <div class="p-4 flex-auto">
         <!-- Chart -->
-        <div class="relative" style="height:350px">
+        <div class="relative linechart" style="">
           <canvas id="line-chart"></canvas>
         </div>
       </div>
@@ -43,16 +43,16 @@ export default {
           datasets: [
             {
               label: new Date().getFullYear(),
-              backgroundColor: "#4c51bf",
-              borderColor: "#4c51bf",
+              backgroundColor: "#dd6b20",
+              borderColor: "white",
               data: [65, 78, 66, 44, 56, 67, 75],
               fill: false
             },
             {
               label: new Date().getFullYear() - 1,
               fill: false,
-              backgroundColor: "#ed64a6",
-              borderColor: "#ed64a6",
+              backgroundColor: "white",
+              borderColor: "#dd6b20",
               data: [40, 68, 86, 74, 56, 60, 87]
             }
           ]
@@ -96,7 +96,7 @@ export default {
                   display: false,
                   borderDash: [2],
                   borderDashOffset: [2],
-                  color: "rgba(33, 37, 41, 0.3)",
+                  color: "dd6b20",
                   zeroLineColor: "rgba(0, 0, 0, 0)",
                   zeroLineBorderDash: [2],
                   zeroLineBorderDashOffset: [2]
@@ -134,3 +134,9 @@ export default {
   }
 };
 </script>
+<style scoped>
+  .linechart{
+    background:#1a9e8e !important;
+    height:350px
+  }
+</style>
